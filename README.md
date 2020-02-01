@@ -1,4 +1,26 @@
-# AWS Clojurescript Gradle Template
+# CRUD-Lambda-TypeScript-Mongo
+
+
+A little serverless lambda providing CRUD functionality for a MongoDB collection! 🎉 
+
+## Tldr;
+
+First, build:
+```
+./gradlew clean build
+```
+
+Run it with this command:
+```
+sls offline --skipCacheInvalidation --useSeparateProcesses start
+```
+
+This is also aliased as the start command:
+```
+npm start
+```
+
+# Scaffolded With AWS Clojurescript Gradle Template
 
 This project compiles **Clojurescript** to a [NodeJS](https://nodejs.org/en/) module using the [Gradle Clojure Plugin](https://gradle-clojure.github.io/gradle-clojure/index.html).
 
